@@ -1,0 +1,108 @@
+/* .h1 {
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: sans-serif;
+} */
+/* WatsOnYourMind.css */
+
+/* General Styles */
+/* WatsOnYourMind.css */
+
+/* General Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Carousel Container 
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  display: flex;  Use flexbox to handle carousel items 
+  overflow: hidden;
+  width: 100%;
+} */
+
+/* .carousel-item {
+  display: flex;
+  justify-content: center;  Center items horizontally 
+  align-items: center; /* Center items vertically 
+  flex: 0 0 100%; /* Each item takes up 100% width of the container 
+} */
+
+/* .carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-item.active {
+  display: flex; 
+} */
+
+/* Carousel Controls */
+/* .carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  width: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center center;
+} */
+.carousel-inner {
+  display: flex;
+  margin-left: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.carousel-item {
+  flex: 1 0 100%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control-prev {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+  margin-top: 50px;
+}
+.carousel-control-next {
+  background-color: blue;
+
+  height: 30px;
+  width: 30px;
+  margin-top: 50px;
+}

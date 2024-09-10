@@ -1,0 +1,38 @@
+{
+  "name": "sample-react",
+  "version": "1.0.0",
+  "description": "sample-react-apps",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundaryaM16/Sample-react.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundaryaM16/Sample-react/issues"
+  },
+  "homepage": "https://github.com/soundaryaM16/Sample-react#readme",
+  "browserslist": [
+    "last 2 chrome version",
+    "not last 2 edge version"
+  ],
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "vite": "^5.3.4"
+  }
+}

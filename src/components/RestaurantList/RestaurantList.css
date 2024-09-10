@@ -1,0 +1,172 @@
+/* .restaurant-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-toggle:hover {
+  background-color: #e0e0e0;
+}
+
+.accordion-title {
+  font-weight: bold;
+}
+
+.accordion-icon {
+  font-size: 18px;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.accordion-content.open {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.accordion-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+.item-detail {
+  flex-grow: 1;
+}
+.menu {
+  display: flex;
+} */
+.restaurant-list {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.restaurant-list h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cuisine-filters {
+  margin-bottom: 20px;
+}
+
+.cuisine-checkbox {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.cuisine-checkbox input {
+  margin-right: 5px;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-title {
+  font-weight: bold;
+}
+
+.accordion-icon {
+  font-size: 1.2rem;
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+  opacity: 0;
+}
+
+.accordion-content.open {
+  max-height: 1000px; /* Adjust based on content */
+  opacity: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.item-detail {
+  flex: 1;
+}
+
+.item-detail h4 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.item-detail p {
+  margin: 0;
+  color: #555;
+}
+
+.image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 20px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .accordion-content.open {
+    max-height: 500px; /* Adjust based on content */
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image {
+    margin: 10px 0 0;
+    max-width: 100%;
+  }
+}

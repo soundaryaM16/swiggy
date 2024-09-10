@@ -1,0 +1,16 @@
+.footer {
+  background-color: rgb(2, 6, 12);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 10px;
+  min-width: 200px;
+}
