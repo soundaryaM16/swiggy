@@ -41,7 +41,6 @@ const RestaurantList = () => {
     <div className="restaurant-list">
       <h2>{name}</h2>
       <div id="list" className="card">
-        <h3>{name}</h3>
         <h5>{cuisines.join(", ")}</h5>
         <h5 className="rating">★ {avgRating}</h5>
         <h5 className="delivery-time">Delivery Time: {deliveryTime} mins</h5>
@@ -78,11 +77,11 @@ const RestaurantList = () => {
                         <p>{item.card.info.description}</p>
                       </div>
                       <img
+                        className="item-image"
+                        l
                         src={image_url + item.card.info.imageId}
                         alt={item.card.info.name}
-                        className="item-image"
                       />
-                      <button className="add-button">ADD</button>
                     </li>
                   ))}
                 </ul>
